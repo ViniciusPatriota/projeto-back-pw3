@@ -1,0 +1,23 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "parte do backend do projeto PetShop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViniciusPatriota/projeto-back-pw3.git"
+  },
+  "author": "Vinicius Patriota",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViniciusPatriota/projeto-back-pw3/issues"
+  },
+  "homepage": "https://github.com/ViniciusPatriota/projeto-back-pw3#readme",
+  "dependencies": {
+    "modules": "^0.4.0",
+    "node": "^22.8.0"
+  }
+}
