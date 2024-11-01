@@ -21,10 +21,14 @@ const modelAnimal = connection.define(
             type: Sequelize.INTEGER,
             allowNull: true
         },
+        descricao: {
+            type: Sequelize.STRING(100),
+            allowNull: true
+        },
     }
 );
 
 
-modelAnimal.sync({ force: true });
+// modelAnimal.sync({ force: true });
 
 module.exports = modelAnimal;

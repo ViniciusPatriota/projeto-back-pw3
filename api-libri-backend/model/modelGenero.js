@@ -16,6 +16,6 @@ const modelGenero = connection.define(
     }
 );
 
-modelGenero.sync({ force: true }); 
+// modelGenero.sync({ force: true }); 
 
 module.exports = modelGenero;

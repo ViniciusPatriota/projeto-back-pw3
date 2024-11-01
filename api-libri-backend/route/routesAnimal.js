@@ -8,9 +8,9 @@ router.get('/', (req, res) => {
 
 /* ROTA DE INSERÇÃO DE ANIMAL */
 router.post('/inserirAnimal', (req, res) => {
-    let { especie, raca, idade_m } = req.body;  // Adicionado `especie` como campo comum
+    let { especie, raca, idade_m, descricao } = req.body;  // Adicionado `especie` como campo comum
 
-    modelAnimal.create({ especie, raca, idade_m })  // Incluído `especie`
+    modelAnimal.create({ especie, raca, idade_m, descricao })  // Incluído `especie`
     .then(() => {
         return res.status(201).json({
             errorStatus: false,
